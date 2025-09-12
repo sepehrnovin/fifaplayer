@@ -1,0 +1,29 @@
+.bg-gray{
+    background-color: gainsboro;
+}
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+.inputchack[type=checkbox] {
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.labelcheck {
+	display: inline-block;
+	border: 1px solid currentcolor;
+	color: #0d6efd;
+    margin-left: 0.5rem;
+	font-size: 15px;
+	padding: 0.15em;
+	border-radius: 0.25rem;
+}
+.labelcheck:has(input[type=checkbox]:checked) {
+	background: #0d6efd;
+	color: #fff;
+}
+
+.labelcheck:has(input[type=checkbox]:not(:checked)):hover {
+	opacity: 0.5;
+}
