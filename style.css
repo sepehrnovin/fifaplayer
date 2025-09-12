@@ -3,7 +3,7 @@
 }
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow-x: hidden;
+    
 }
 .inputchack[type=checkbox] {
 	appearance: none;
@@ -26,4 +26,5 @@
 
 .labelcheck:has(input[type=checkbox]:not(:checked)):hover {
 	opacity: 0.5;
+
 }
