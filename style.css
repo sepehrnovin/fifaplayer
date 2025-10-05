@@ -3,7 +3,7 @@
 }
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 .inputchack[type=checkbox] {
 	appearance: none;
@@ -28,5 +28,6 @@
 	opacity: 0.5;
 
 }
+
 
 
